@@ -30,7 +30,7 @@ High-frequency automated scanners built to interface with financial APIs, analyz
 If my automation tools, logistics frameworks, or open-source scripts have brought value, saved you time, or optimized your workflow, consider sponsoring the development of next-generation systems.
 
 ### 🛡️ Support Channels
-* **Direct Support (Pix):** Insira_Seu_Pix_Aqui
+* **Direct Support (Pix):** 42240879874 willian Oliveira de Lima nulbenk
 
 > "Efficiency is not about doing more; it's about engineering systems that do it for you."
 
