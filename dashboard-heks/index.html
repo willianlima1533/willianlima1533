@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HEKS V6.1 - Quantum Dashboard</title>
+    <style>
+      body {
+        background-color: #0d1117;
+        color: #c9d1d9;
+        font-family: 'Courier New', monospace;
+        margin: 0;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .panel {
+        border: 2px solid #8a2be2;
+        border-radius: 8px;
+        width: 100%;
+        max-width: 600px;
+        padding: 20px;
+        box-shadow: 0 0 15px rgba(138, 43, 226, 0.3);
+      }
+      .header {
+        color: #00ff7f;
+        text-align: center;
+        border-bottom: 1px solid #30363d;
+        padding-bottom: 10px;
+        font-weight: bold;
+      }
+      .metric {
+        margin: 15px 0;
+        font-size: 1.1em;
+      }
+      .label { color: #58a6ff; }
+      .value { color: #ff7b72; font-weight: bold; }
+      .log-box {
+        background-color: #161b22;
+        border: 1px solid #30363d;
+        padding: 10px;
+        border-radius: 4px;
+        min-height: 50px;
+        margin-top: 5px;
+        color: #e6edf3;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="panel">
+      <div class="header">🔱 HEKS COGNITIVE QUANTUM MONITOR V6.1</div>
+      
+      <div class="metric">
+        <span class="label">▶ STATUS DO NODE:</span> <span class="value" id="node-id">Conectando...</span>
+      </div>
+      <div class="metric">
+        <span class="label">▶ CARGA DO PRO CESSADOR:</span> <span class="value" id="load">0%</span>
+      </div>
+      <div class="metric">
+        <span class="label">▶ NÚCLEO TÉRMICO:</span> <span class="value" id="thermal">0°C</span>
+      </div>
+      <div class="metric">
+        <span class="label">▶ ENTROPIA QUÂNTICA:</span> <span class="value" id="entropy">0 eV</span>
+      </div>
+      
+      <div class="metric">
+        <span class="label">[🤖 CYBER-ALPHA LOG]:</span>
+        <div class="log-box" id="cyber-alpha">Sincronizando barramento...</div>
+      </div>
+      
+      <div class="metric">
+        <span class="label">[⚙️ CYBER-LOGIX LOG]:</span>
+        <div class="log-box" id="cyber-logix">Aguardando telemetria...</div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
